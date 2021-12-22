@@ -30,7 +30,6 @@ import UIKit
 import NVActivityIndicatorView
 
 /// Class packages information used to display UI blocker.
-@available(*, deprecated, message: "")
 public final class ActivityData {
     /// Size of activity indicator view.
     let size: CGSize
@@ -178,7 +177,6 @@ private struct NVActivityIndicatorPresenterStateStopped: NVActivityIndicatorPres
 }
 
 /// Presenter that displays NVActivityIndicatorView as UI blocker.
-@available(*, deprecated, message: "")
 public final class NVActivityIndicatorPresenter {
     fileprivate enum State: NVActivityIndicatorPresenterState {
         case waitingToStart
